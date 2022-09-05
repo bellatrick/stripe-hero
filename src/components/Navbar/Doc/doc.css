@@ -1,0 +1,24 @@
+.documentation{
+    padding: 30px;
+}
+.documentation .subtitle{
+    margin-top: -7px;
+    font-weight: 400;
+}
+.documentation p,h4{
+    color: #727f96;
+   
+}
+.doc_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-content: center;
+    place-items: start;
+}
+.doc_grid p{
+    font-weight: 400;
+}
+.doc_grid h4{
+font-size: 14px;
+}

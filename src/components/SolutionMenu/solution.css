@@ -1,0 +1,37 @@
+.solution_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+    gap: 50px;
+}
+.solution_grid h3{
+    color: #727f96;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+.solution_item{
+    display: flex;
+    gap: 15px;
+   margin-top: -15px;
+}
+
+.solution_item p{
+    color: #21244d;
+    font-weight: 600;    
+}
+
+@media (max-width:888px) {
+    .solution_item img{
+     width: 20px;
+    }
+    .solution_item{
+     margin-bottom: 34px;
+    }
+    .solution_item p{
+     font-size: 13px;
+     font-weight: 500;
+     margin: 0px;
+     color: #111439;
+ }
+   }
